@@ -1,10 +1,13 @@
 # Postman
+Install postman destop
+- https://www.postman.com/downloads/
 
-Install postman or Poatman vscode extension.
-##
-Yes! You **can absolutely get an OAuth2 token with Postman** using the credentials you described. Here’s how to do it step by step:
+Poatman vscode extension and online version have bugs.
 
----
+## Pay by bank use case
+
+- https://docs.banked.com/merchant/api-guide/postman-collection
+- https://www.loom.com/share/11742f50ce944b008f4f434705f114bc?sid=67590a3e-33fd-4ea6-9a76-9f2892400cc7
 
 ### **1. Create a new request in Postman**
 
@@ -183,13 +186,4 @@ pm.environment.set("idempotency", uuid);
 // Example signing (pseudo):
 // const signature = signPayload(pm.request.body.raw, privateKey);
 pm.environment.set("signature", "dummy_signature_value");
-```
-
-```
-git init
-git add .
-git commit -m "Initial commit"
-git branch -M main
-git remote add origin https://github.com/<your-username>/<your-repo-name>.git
-git push -u origin main
 ```
